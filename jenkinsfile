@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "yourdockerhubuser/myapp"
+        IMAGE_NAME = "nmadhu809/kubernetesdeploymenttest"
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
 
